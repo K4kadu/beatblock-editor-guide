@@ -68,9 +68,9 @@ const config = {
         respectPrefersColorScheme: false,
       },
       docs: {
-        sidebar: {
-          hideable: true,
-        },
+        // sidebar: {
+        //   hideable: true,
+        // },
       },
       navbar: {
         // title: 'My Site',
