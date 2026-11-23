@@ -18,15 +18,15 @@ To find the BPM of your song, it is suggested to use a BPM tapper. Good BPM tapp
 
 Offset can either be adjusted in the editor, or manually by cutting the song in a separate program (e.g. Audacity).
 
-**[IMAGE]**
+![editing play song](assets/editing_play_song.png)
 
 Opening the level properties panel [Ctrl + I] allows you to add and edit basic level info that appears on the song select screen.
 
-**[IMAGE]**
+![level properties](assets/level_properties.png)
 
 Below the METADATA section are the Variant Specific,  BG and OTHER sections, which let you choose a song select background image* and miscellaneous properties.
 
-**[IMAGE]**
+![level properties 2](assets/level_properties_2.png)
 
 *BG images must fit the eight-channel palette, which is explained further in the decorations guide.
 
