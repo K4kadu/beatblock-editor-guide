@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
 title: Beatblock Editor Guide
-description: This description will override the default.
+description: make Cranky Beatblock proud
 slug: /
 ---
 {/* "slug: /" makes it so that this is the index.html */}
 
 <div style={{textAlign: 'center'}}>
 
-![caution](assets/caution.png)
+![caution](assets/caution.gif)
 
 This guide is a work in progress!
 
