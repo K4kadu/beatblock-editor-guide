@@ -67,6 +67,11 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
         // title: 'My Site',
         // logo: {
