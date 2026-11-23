@@ -8,6 +8,8 @@ Select your preferred note/event type in the event palette and click on the desi
 ![palette notes](assets/palette_notes.png)
 ![placed block](assets/placed_block.png)
 
+**I am writing half a novel over here and I will not stop writing more and more text until we leave this line and end up in a different line cause I wanna see what will happen and I have a LOT to write. Lorem Ipsum oh no I forgot how the rest goes I guess I could've just copied that from some website, but oh well that's how it goes. I am creative enough to write all this useless fluff with my own mind anyway and writing assignments have been shown to reduce the likelihood of developing alzheimer's symptoms if I remember correctly, so I'm just doing something for my own health here if we think about it.**
+
 Overlapping events will bring up a prompt asking which should be selected.
 Remember: you can also *adjust your angle snap* to place events along a greater range of angles, or *manually enter* angle & time positions in the Event editor.
 
