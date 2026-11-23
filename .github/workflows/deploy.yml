@@ -19,7 +19,7 @@ permissions:
 jobs:
   build:
     name: Build Docusaurus
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -44,7 +44,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     needs: build
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
 
     permissions:
       pages: write
