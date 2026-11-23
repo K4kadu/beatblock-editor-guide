@@ -89,7 +89,7 @@ const config = {
             type: 'html',
             position: 'right',
             className: 'navbar-center-image',
-            value: '<img src="img/beattherhythmandnotes.png" alt="Banner" />',
+            value: '<img src="/beatblock-editor-guide/img/beattherhythmandnotes.png" alt="BTRAN_Banner" />',
           },
           // {
           //   href: 'https://github.com/K4kadu/beatblock-editor-guide',
