@@ -21,62 +21,35 @@ or @cytruss_fruit on discord.**
 
 ---
 
-# Getting Started
+## Getting Started
 
 ## Navigating the Editor
 
-Your editor layout is centered around the timeline,
-
-a polar graph that notes and events are placed on.
-
+Your editor layout is centered around the <u>timeline</u>, a polar graph that notes and events are placed on. \
 Specific components are numbered and defined below.
 
-|                          |
-|--------------------------|
-| ![](images/image134.png) |
-
-1\. Event palette
-
-Select what note or event types you want to place in this menu.
-
-2\. Playback speed
-
-Use the slider to adjust what speed your level plays at.
-
-3\. Event editor
-
-Change and toggle event properties in this menu.
-
-4\. Cranky
-
-The player character and resident paddle-wielder. Follows the mouse.
-
-5\. Snap
-
-Adjust what angles and timing intervals you want events to snap to.
-
-6\. Go to beat
-
-Jump to beats along a timeline, including negative values.*
-
-\*A negative value must first be set in the level properties panel’s “Load beat” field.
+| ![](images/image134.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. **Event palette:** Select what note or event types you want to place in this menu.<br></br><br></br>2. **Playback speed:** Use the slider to adjust what speed your level plays at.<br></br><br></br>3. **Event editor:** Change and toggle event properties in this menu.<br></br><br></br>4. **Cranky:** The player character and resident paddle-wielder. Follows the mouse.<br></br><br></br>5. **Snap:** Adjust what angles and timing intervals you want events to snap to.<br></br><br></br>6. **Go to beat:** Jump to beats along a timeline, including negative values.* |
+**A negative value must first be set in the level properties panel’s “Load beat” field.*
 
 To reset the layout back to its default state you can use Ctrl + R
 
 ---
 
 ## Importing Songs
+When you create a new level, you’ll want to select `Gameplay` -> `Play song` in the event palette before placing the event on your timeline. \
+Remember to <u>set your BPM</u>!
 
-When you create a new level, you’ll want to select Gameplay &gt; Play song in the event palette before placing the event on your timeline. Remember to set your BPM!
+To find the BPM of your song, it is suggested to use a BPM tapper. \
+Good BPM tappers include:
+> https://all8.com/tools/bpm.htm \
+> https://flat9.glitch.me/
 
-To find the BPM of your song, it is suggested to use a BPM tapper. Good BPM tappers include:  
-[https://all8.com/tools/bpm.htm](https://www.google.com/url?q=https%3A%2F%2Fall8.com%2Ftools%2Fbpm.htm&sa=D&source=editors&ust=1795465856744034&usg=AOvVaw3YUwcWuxTEUSkvV9DrHduY)
-
-[https://flat9.glitch.me/](https://www.google.com/url?q=https%3A%2F%2Fflat9.glitch.me%2F&sa=D&source=editors&ust=1795465856744180&usg=AOvVaw3wjyfD_tjP3_b1ZRpkPjVZ)
-
-Try to avoid using a search engine to find the BPM, they often give inaccurate results!
-
-.ogg files are heavily preferred for Play song events, but .wav files are usable. MP3 files are no longer usable.
+Try to avoid using a search engine to find the BPM, they often give inaccurate results! \
+.ogg files are <u>heavily preferred</u> for Play song events. \
+.wav files are usable, but the files are around 10 times larger than ogg. \
+**.mp3 files are no longer usable.**
 
 Offset can either be adjusted in the editor, or manually by cutting the song in a separate program (ex. Audacity.)
 
@@ -86,77 +59,42 @@ Opening the level properties panel \[Ctrl + I] allows you to add and edit basic
 
 ![](images/image3.png)
 
-Below the METADATA section are the Variant Specific,  BG and OTHER sections, which let you choose a
-
-song select background image* and miscellaneous properties.
+Below the METADATA section are the Variant Specific,  BG and OTHER sections, which let you choose a song select background image* and miscellaneous properties.
 
 ![](images/image78.png)
 
-\*BG images must fit the eight-channel palette, which is explained further in the decorations guide.
+**BG images must fit the eight-channel palette, which is explained further in the [decorations](#decorations-101) guide.*
 
 ---
 
 ## Issues with Importing Songs
-
 Can’t get your song imported? You’ve come to the right place.
 
-Some things to check:
-
+Some things to check: \
 Is your file in a supported format? (Hint: if it’s an MP3, those are not supported!)
 
-- Ok, but is it actually in a supported format?
-
-{/*THE END*/}
-
-- Many converters and downloaders can give broken files that are actually other formats in disguise!
-- For downloading, [https://cobalt.tools/](https://www.google.com/url?q=https%3A%2F%2Fcobalt.tools%2F&sa=D&source=editors&ust=1795465856745582&usg=AOvVaw0uoJgrYegZUe8v05vq0rrF) is known to work.
-- For converting, you can use [https://www.audacityteam.org/](https://www.google.com/url?q=https%3A%2F%2Fwww.audacityteam.org%2F&sa=D&source=editors&ust=1795465856745666&usg=AOvVaw3DGZkceULE9XsmFp30X8xL)
-
-{/*THE END*/}
-
+- Ok, but is your file *really* in a supported format?
+	- Many converters and downloaders can give broken files that are actually other formats in disguise!
+	- For downloading, https://cobalt.meowing.de/ is known to work.
+	- For converting, you can use [https://www.audacityteam.org/](https://www.google.com/url?q=https%3A%2F%2Fwww.audacityteam.org%2F&sa=D&source=editors&ust=1795465856745666&usg=AOvVaw3DGZkceULE9XsmFp30X8xL)
 - Do you have file extensions turned on?
-
-{/*THE END*/}
-
-- If you don’t, here is a tutorial: [https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions](https://www.google.com/url?q=https%3A%2F%2Fwww.howtogeek.com%2F205086%2Fbeginner-how-to-make-windows-show-file-extensions&sa=D&source=editors&ust=1795465856745790&usg=AOvVaw1beSkRqHM7ASuf9dn1NKyr)
-
-{/*THE END*/}
-
+	- If you don’t, here is a tutorial: https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions
 - Now that you have file extensions turned on, does your file only have one extension?
-
-{/*THE END*/}
-
-- If your file is named “song.ogg.ogg” or something similar, you need to change it to just be “song.ogg”
-
-{/*THE END*/}
-
+	- If your file is named “song.ogg.ogg” or something similar, you need to change it to just be “song.ogg”
 - Is your file named properly, and is the file set to that name in your play song event?
-
-{/*THE END*/}
-
-- In the play song event, you need to put the file name, including the extension.
-
-{/*THE END*/}
-
+	- In the play song event, you need to put the file name, including the extension.
 - Have you set your BPM and offset correctly?
+	- If you are having trouble finding the BPM of your song, please ask in the discord. **Starting your level with the wrong BPM will make your level out of sync and uncomfortable to play. There is also no proper way to fix it other than starting the level over, so please make sure you get it right!!**
 
-{/*THE END*/}
+## Placing Notes & Events
 
-- If you are having trouble finding the BPM of your song, please ask in the discord. Starting your level with the wrong BPM will make your level out of sync and bad to play, and there is no way to fix it other than starting the level over, so please make sure you have it correct!!
+Select your preferred note/event type in the event palette and click on the desired position in the timeline.
 
-## Placing Notes &amp; Events
+![226](images/image142.png)![](images/image24.png)
 
-Select your preferred note/event type in the event palette
-
-and click on the desired position in the timeline.
-
-|                                                 |
-|-------------------------------------------------|
-| ![](images/image142.png)![](images/image24.png) |
-
-Overlapping events will bring up a prompt asking which should be selected.
-
-Remember: you can also adjust your angle snap to place events along a greater range of angles, or manually enter angle &amp; time positions in the Event editor.
+Overlapping events will bring up a prompt asking which event should be selected. \
+Remember: you can also adjust your angle snap to place events along a greater
+range of angles, or manually enter angle & time positions in the Event editor.
 
 ![](images/image112.png)
 
@@ -164,7 +102,7 @@ Events with easings that occur at the same time for the same object (ex. a decor
 
 ![](images/image89.png)
 
-The next section will go over the different note &amp; event types you can select by default, and what their functions are. Other events may not be included but still usable by entering their respective ID in the text field of the Event palette.
+The next section will go over the different note & event types you can select by default, and what their functions are. Other events may not be included but still usable by entering their respective ID in the text field of the Event palette.
 
 ---
 
@@ -209,7 +147,7 @@ The next section will go over the different note &amp; event types you can selec
 
 |              |                                                                                                                                                                                                                                                                 |                                                                                                              |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| None         | N/A                                                                                                                                                                                                                                                             | Does not place events. <br></br>Helpful when you need to only select existing events.                         |
+| None         | N/A                                                                                                                                                                                                                                                             | Does not place events. <br></br>Helpful when you need to only select existing events.                        |
 | Play song    | ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUklEQVQ4T73PSwoAIAxDweb+h650ERGl9KP4lsUMCBFRuQgGqPYMAI8BO1hZ0AVYBIUA86A0wHaoDLD1/V+g/YV9yELAGzIXiIbsAKq9A+al0QBEuFgB+/C01AAAAABJRU5ErkJggg==)                                         | Plays a selected audio file as the song. Has a built-in BPM field.**                                         |
 | Play sound   | ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVQ4T+WQQQrAQAgD9f+PtuQQCaHVsj12Tosxs2BGRMUHEoKqM0dmzgIsAOR4+94oYBkwd8mjQMvASypsgZcU5lrk7LUAaPGPgvWIih9UcxfdCoBK/GcyCgAlyL0MVsFGC3pywAXia5QBWLp18AAAAABJRU5ErkJggg==)             | Plays a selected audio file as a sound effect. THIS IS NOT THE SAME AS THE PLAY SONG EVENT.                  |
 | Set BPM      | ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXUlEQVQ4T82PUQoAIQhEnfsf2mUCQ8x2SVnofemkj4SIqDQABao1B4CbBfyeJztzOYHBV+1ZBBayLwtItrDLtgLi82MBM79UFpAoM1JBNmjEt/8Eb8TZIZhJgbbgAROOeQGmpJnYAAAAAElFTkSuQmCC)                             | Set the BPM. Good for mid-track tempo changes.                                                               |
@@ -226,39 +164,37 @@ The next section will go over the different note &amp; event types you can selec
 ---
 
 ## Editor Utilities
-
 ### Hotkeys
-
 Full list of hotkeys available inside of the editor
 
-|   |   |   |
-|---|---|---|
-||S|Save level|
-||P|Play from current beat|
-|Ctrl|P|Play from start of level|
-|Ctrl|G|Jump to beat|
-|Ctrl|I|Open level properties panel|
-|Shift|Click|Multiselect (places markers for start & end of selection)|
-|Ctrl|C|Copy & paste<br></br>(only currently works with multiselect)|
-|Ctrl|V|
-|Ctrl|Scroll|Zoom in+out|
-||R Click|Delete event|
-||🠈🠊|Change selected event’s angle|
-||🠉🠋|Change selected event’s time|
-||Alt|View section timeline (mark sections with the Bookmark event)|
-|Alt|🠊|Skip to end of current section|
-|Alt|🠈|Skip to start of current section|
-|Ctrl|R|Reset editor layout|
+|       |          |                                                                       |
+| ----- | -------- | --------------------------------------------------------------------- |
+|       | S        | Save level                                                            |
+|       | P        | Play from current beat                                                |
+| Ctrl  | P        | Play from start of level                                              |
+| Ctrl  | G        | Jump to beat                                                          |
+| Ctrl  | I        | Open level properties panel                                           |
+| Shift | LMB      | Multiselect (places markers for start & end of selection)             |
+| Alt   | LMB drag | Multiselect (selects events within a range of beats and angles)       |
+| Ctrl  | C        | Copy selected events<br></br>(only currently works with multiselect)  |
+| Ctrl  | V        | Paste selected events<br></br>(only currently works with multiselect) |
+| Ctrl  | Scroll   | Zoom in+out                                                           |
+|       | RMB      | Delete event                                                          |
+|       | 🠈 🠊    | Change selected event’s angle                                         |
+|       | 🠉 🠋    | Change selected event’s time                                          |
+|       | Alt      | View section timeline (mark sections with the Bookmark event)         |
+| Alt   | 🠊       | Skip to end of current section                                        |
+| Alt   | 🠈       | Skip to start of current section                                      |
+| Ctrl  | R        | Reset editor layout                                                   |
 
 ### Math parser
-
-Inputting calculations into the number fields of events will make the calculations for you.
+Inputting calculations into the number fields of events will perform the calculations for you.
 
 example:
 
-| Typing this into any numerical field and pressing enter… |   | …will make the calculation for you |
-|----------------------------------------------------------|---|------------------------------------|
-| ![](images/image170.png)                                 |   | ![](images/image21.png)            |
+| Typing this into any numerical field and pressing enter… |     | …will do the calculation for you |
+| -------------------------------------------------------- | --- | -------------------------------- |
+| ![](images/image170.png)                                 |     | ![](images/image21.png)          |
 
 You can also use certain mathematical functions to make calculations easier.
 
@@ -272,7 +208,7 @@ Available functions:
 | -------------- | --------- | ----------------- | ------------- | ------------------ | ------------------ | ------------------------- | ----------------------------------------- |
 | Absolute value | Logarithm | Logarithm base 10 | Exponent (ex) | Degrees to radians | Radians to degrees | Random number from x to y | Linear interpolation: <br></br>x + (y-x)*t |
 
-In the editor you would replace x,y or t with a number of your choosing (i.e. inputting sin(20) will give you 0.913 )
+In the editor you would replace x, y or t with a number of your choosing (i.e. inputting `sin(20)` will give you `0.913` ).
 
 Also these variables are available:
 
@@ -280,7 +216,7 @@ Also these variables are available:
 |-----------------|---------------------------|-------------------|-------------------|
 | The value of pi | Random number from 0 to 1 | Replaced with 300 | Replaced with 180 |
 
-# Variables List
+## Variables List
 
 ## Booleans
 
@@ -421,7 +357,7 @@ Also these variables are available:
 
 ---
 
-# Decorations 101
+## Decorations 101
 
 The following section will detail all the essential information needed in order to use the decoration event starting from the basics of colors, to single image decorations, to animated ones.
 
@@ -430,7 +366,7 @@ The following section will detail all the essential information needed in order 
 The way the game currently operates, is that it only allows up to 8 colors to be present on screen at any given moment. The way these colors are handled are through 8 color channels indexed from 0-7. Each index is responsible for one color and are as following:
 
 |                          |                          |                          |                         |
-|--------------------------|--------------------------|--------------------------|-------------------------|
+| ------------------------ | ------------------------ | ------------------------ | ----------------------- |
 | Channel 0                | Channel 1                | Channel 2                | Channel 3               |
 | ![](images/image147.png) | ![](images/image157.png) | ![](images/image95.png)  | ![](images/image72.png) |
 | Channel 4                | Channel 5                | Channel 6                | Channel 7               |
@@ -438,12 +374,11 @@ The way the game currently operates, is that it only allows up to 8 colors to be
 
 Image credits to @itsdakirby69 and @wisnia465
 
-i.e. if you decide to change channel 1 using a Set Color event it will change everything on screen that is black to that color,  including cranky’s and all the note outline colors.
+i.e. if you decide to change channel 1 using a Set Color event it will change everything on screen that is black to that color, including Cranky’s and all the note outline colors.
 
 ---
 
 ## Still Decorations
-
 ### Part 1: The basics
 
 So, you want to add an image into your game? You are going to need to place a “decoration” event into your level. It has a lot of options and we’ll go through the ones you need one by one. For a full list of explanations of the options in the decoration event, check the Events section of this guide.
@@ -456,15 +391,14 @@ In this initial creation event you are required to fill out the “id”, but yo
 
 You could also mess with x or y, in order to give it a position on the screen.
 
-The game’s coordinates range from 0-600 from left to right in the horizontal direction (X), and from 0-360 from top to bottom in the vertical direction (Y). Meaning  (0,0) is at the top left  of the screen.
+The game’s coordinates range from 0-600 from left to right in the horizontal direction (X), and from 0-360 from top to bottom in the vertical direction (Y). Meaning (0,0) is at the top left  of the screen.
 
-By default the image will be placed at x=300,y=180 which is the center of the screen and also where cranky is positioned
+By default the image will be placed at x=300, y=180 which is the center of the screen and also where cranky is positioned
 
 Example:
 
-|                                                  |                               |
-|--------------------------------------------------|-------------------------------|
 | This configuration (all other fields left blank) | Will give this in game result |
+| ------------------------------------------------ | ----------------------------- |
 | ![](images/image114.png)                         | ![](images/image33.png)       |
 
 Keep in mind that by default, your image is placed using its top left corner as reference.
@@ -475,21 +409,19 @@ Keep in mind that by default, your image is placed using its top left corner as 
 
 Now what if the image of your liking has color? You will have to first make it operate within the 8 color channel limit. Meaning  every pixel in your image must match one of the 8 colors specified above.  If it’s even a single RGB value off of what is necessary, the game will replace it with the black and purple error texture.
 
-|                                                           |                                        |                                         |
-|-----------------------------------------------------------|----------------------------------------|-----------------------------------------|
-| Example of an incorrectly colored image appearing in-game | The same image colored black (#000000) | The same image colored blue (#0000FF) * |
-| ![](images/image56.png)                                   | ![](images/image168.png)               | ![](images/image140.png)                |
+| Example of an incorrectly colored image<br></br>appearing in-game | The same image colored black (#000000) | The same image colored blue (#0000FF) * |
+| ------------------------------------------------------------ | -------------------------------------- | --------------------------------------- |
+| ![](images/image56.png)                                      | ![](images/image168.png)               | ![](images/image140.png)                |
 
 \*unless specified, colors other than black and white will appear gray or black by default. In order to give your images different colors you must use Set Color events, which will change the appearance of the color in game into the color you specify.
 
 Be extra mindful of anti-aliasing!
 
-|                                                        |                                                                             |
-|--------------------------------------------------------|-----------------------------------------------------------------------------|
 | Line with anti-aliasing (left) vs line without (right) | Line with anti-aliasing (left) vs line without (right) inside of beatblock* |
-| ![](images/image151.png)                               | ![](images/image113.png)                                                    |
+| ------------------------------------------------------ | --------------------------------------------------------------------------- |
+| ![382](images/image151.png)                            | ![](images/image113.png)                                                    |
 
-\*The one with anti-aliasing will not work in-game because some of its pixels aren’t pure black!
+\**The one with anti-aliasing will not work in-game because some of its pixels aren’t pure black!*
 
 ## Animated Decorations
 
@@ -503,10 +435,9 @@ Now whichever field you decide to alter will change the decorations properties, 
 
 Let’s do another example with the square from earlier:
 
-|                                                                                                 |                               |
-|-------------------------------------------------------------------------------------------------|-------------------------------|
-| This configuration (the event one beat before, is the creation event from the previous section) | Will give this in game result |
-| ![](images/image80.png)                                                                         | ![](images/image141.gif)      |
+| This configuration (the event one beat before, is the<br></br>creation event from the previous section) | Will give this in game result |
+| -------------------------------------------------------------------------------------------------- | ----------------------------- |
+| ![](images/image80.png)                                                                            | ![](images/image141.gif)      |
 
 Notice how the duration being 2 (beats) means that it’ll take that long for the decoration to go from its original position to the new one.  
 Also noteworthy is how the square is rotating in a “weird way” ; this is caused by the fact that  we haven’t specified an offset for our decoration
@@ -523,23 +454,17 @@ Animated decorations (or decos) contain two parts- the spritesheet (.png format)
 
 .json files have the following info inside them:
 
-- Width &amp; height:  determines how big an individual frame is in pixels.
+- Width & height: determines how big an individual frame is in pixels.
 - fps:  the default frames per second for all states. When an fps value isn’t included in a state, this is what it’ll default to. If this value isn’t included, it’ll default to 60 fps.
 - frames:  how many frames are in the sheet. While not required, this can be useful if there are any blank spots at the end of the sheet.
-
-{/*THE END*/}
-
-- Frames are zero-indexed, so these are counted in the deco event as  
-  0, 1, 2, etc.
-- If the frame number specified is larger than the amount of frames in your image the game will crash!
-
-{/*THE END*/}
-
+	- Frames are zero-indexed, so these are counted in the deco event as  
+	  0, 1, 2, etc.
+	- If the frame number specified is larger than the amount of frames in your image the game will crash!
 - states:  used to set toggleable animations for a sprite with multiple expressions and are optional to have in your json
 
 So in our specific example:
-
-- A singular frame is 32 by 32 pixels, so that’s what we put into “width” and “height”![](images/image58.png)
+![](images/image58.png)
+- A singular frame is 32 by 32 pixels, so that’s what we put into “width” and “height”
 - “Fps” is just how fast we want the animation to run by default, so we arbitrarily choose 12
 - And there are 8 total frames (bottom right is empty), so that’s what we add as “frames”
 - States are optional, but here is how you would go about adding one. (Double check that all your frame numbers are within bounds (Between 0 and 7 in this case) otherwise your game will crash!)
@@ -554,16 +479,7 @@ The contents of the shapes.json file:
   "states": [
     {
       "name": "squareTriangleLoop",
-      "frames": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        3,
-        2,
-        1
-      ],
+      "frames": [ 0, 1, 2, 3, 4, 3, 2, 1 ],
       "fps": 8,
       "loop": true
     }
@@ -571,60 +487,28 @@ The contents of the shapes.json file:
 }
 ```
 
-{/* TODO */}
-
 Deco animations are controlled via the “sprite” property.
-
 Meaning, in the “sprite” field you would add your filename, followed by one of these shortcuts, which are detailed below:
 
-.png
-
-Static PNG deco.
-
-!state
-
-Plays a state given in the deco’s .json
-
-#frame
-
-Takes numerical input, displays relevant frame (zero-indexed.)
-
-#RANDOM
-
-and
-
-#TRUERANDOM
-
-Displays a random frame
-
-(#RANDOM prevents the same from from being picked twice in a row)
-
-!state@fps
-
-Plays a state at specified fps number and overrides .json fps.
-
-@fps
-
-Plays all frames at specified fps number. Good for decos with only one animation state.
-
-!state#frame
-
-Plays a state starting from the specified frame number.
-
-!state#frame@fps
-
-These can also be combined, meaning you can play a state from a specified frame number, at a certain fps number.
+|                                         |                                                                                                                  |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| .png                                    | Static PNG deco.                                                                                                 |
+| !state                                  | Plays a state given in the deco’s .json                                                                          |
+| #frame                                  | Takes numerical input, displays relevant frame (zero-indexed.)                                                   |
+| #RANDOM<br></br><br></br>_and_<br></br><br></br>#TRUERANDOM | Displays a random frame<br></br><br></br>_(#RANDOM prevents the same from from being picked twice in a row)_               |
+| !state@fps                              | Plays a state at specified fps number and overrides .json fps.                                                   |
+| @fps                                    | Plays all frames at specified fps number. Good for decos with only one animation state.                          |
+| !state#frame                            | Plays a state starting from the specified frame number.                                                          |
+| !state#frame@fps                        | These can also be combined, meaning you can play a state from a specified frame number, at a certain fps number. |
 
 Examples:
 
-|                         |                          |                           |
-|-------------------------|--------------------------|---------------------------|
-| shapes.png              | shapes@4                 | shapes!squareTriangleLoop |
-| ![](images/image51.png) | ![](images/image167.gif) | ![](images/image155.gif)  |
+| shapes.png                 | shapes@4                    | shapes!squareTriangleLoop   |
+| -------------------------- | --------------------------- | --------------------------- |
+| ![402](images/image51.png) | ![291](images/image167.gif) | ![274](images/image155.gif) |
 
-|                         |                              |
-|-------------------------|------------------------------|
 | shapes#6                | shapes!squareTriangleLoop@30 |
+| ----------------------- | ---------------------------- |
 | ![](images/image87.png) | ![](images/image145.gif)     |
 
 ---
@@ -633,45 +517,39 @@ Examples:
 
 ![](images/image115.png)
 
-Disclaimer: This topic is slightly advanced in nature and is in no way necessary to understand in order to use decorations effectively!
+Disclaimer: This topic is slightly advanced in nature and is not necessary to understand in order to use decorations effectively!
 
 ### Part 1:  recolor effect canvas
 
-What the recolor effect canvas accomplishes, is that it turns your inputted image into a mask that swaps the color channels  beneath it, depending on how you have configured it. The example below only shows a swap between the first four channels.
+What the recolor effect canvas accomplishes, is that it turns your inputted image into a mask that swaps the color channels beneath it, depending on how you have configured it. The example below only shows a swap between the first four channels.
 
 For example:
 
-|                                          |   |                                                                       |
-|------------------------------------------|---|-----------------------------------------------------------------------|
-| A configuration like this:               |   |                                                                       |
-| ![](images/image172.png)                 |   |                                                                       |
-|                                          |   |                                                                       |
-| Would give the following in game result: |   |                                                                       |
-| Before:                                  |   | After: (the largest square is the decoration using the effect canvas) |
-| ![](images/image52.png)                  |   | ![](images/image171.png)                                              |
+|                                          |     |                                                                |
+| ---------------------------------------- | --- | -------------------------------------------------------------- |
+| A configuration like this:               |     |                                                                |
+| ![](images/image172.png)                 |     |                                                                |
+|                                          |     |                                                                |
+| Would give the following in game result: |     | (the largest square is the decoration using the effect canvas) |
+| Before:                                  |     | After:                                                         |
+| ![](images/image52.png)                  |     | ![](images/image171.png)                                       |
 
-To achieve this effect, the game takes the full hex code (#000000 to #FFFFFF) for the color of each individual pixel in the original image  and converts it into binary (i.e. a hex code of #FAC4C1 will become “1111,1010,1100,0100,1100,0001”) and then it splits said binary number into eight (“111110101100010011000001” → \[111],\[110],\[101],\[100],\[010],\[011],\[000],\[001]) and then using those numbers, decides which channels need to be swapped. In this example:
+To achieve this effect, the game takes the full hex code (`#000000` to `#FFFFFF`) for the color of each individual pixel in the original image  and converts it into binary (i.e. a hex code of `#FAC4C1` will become “`1111 , 1010 , 1100 , 0100 , 1100 , 0001`”) and then it splits said binary number into eight (“`111110101100010011000001`” → \[`111`],\[`110`],\[`101`],\[`100`],\[`010`],\[`011`],\[`000`],\[`001`]) and then using those numbers, decides which channels need to be swapped. In this example:
 
-Channel 7:  \[111] which is 7 in decimal →  Channel 7 gets swapped with channel 7 (no effect)
-
-Channel 6:  \[110] which is 6 in decimal →  Channel 6 gets swapped with channel 6 (no effect)
-
-Channel 5:  \[101] which is 5 in decimal →  Channel 5 gets swapped with channel 5 (no effect)  
-Channel 4:  \[100] which is 4 in decimal →  Channel 4 gets swapped with channel 4 (no effect)  
-Channel 3:  \[010] which is 2 in decimal →  Channel 3 gets swapped with channel 2↰
-
-Channel 2:  \[011] which is 3 in decimal →  Channel 2 gets swapped with channel 3↲
-
-Channel 1:  \[000] which is 0 in decimal →  Channel 1 gets swapped with channel 0↰
-
-Channel 0:  \[001] which is 1 in decimal →  Channel 0 gets swapped with channel 1↲
+Channel 7:  \[`111`] which is 7 in decimal →  Channel 7 gets swapped with channel 7 (no effect)
+Channel 6:  \[`110`] which is 6 in decimal →  Channel 6 gets swapped with channel 6 (no effect)
+Channel 5:  \[`101`] which is 5 in decimal →  Channel 5 gets swapped with channel 5 (no effect)  
+Channel 4:  \[`100`] which is 4 in decimal →  Channel 4 gets swapped with channel 4 (no effect)  
+Channel 3:  \[`010`] which is 2 in decimal →  Channel 3 gets swapped with channel 2↰
+Channel 2:  \[`011`] which is 3 in decimal →  Channel 2 gets swapped with channel 3↲
+Channel 1:  \[`000`] which is 0 in decimal →  Channel 1 gets swapped with channel 0↰
+Channel 0:  \[`001`] which is 1 in decimal →  Channel 0 gets swapped with channel 1↲
 
 You don't need to make this calculation by hand every time, you can use [this calculator spreadsheet](https://www.google.com/url?q=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1VEf9EGsu3EnWQlcxYZNLBg87FVK0iqRm9I_L9BEL4JI%2Fedit&sa=D&source=editors&ust=1795465856818314&usg=AOvVaw09HbB20Eqk_n8DFvtSrvPL) (made by \_play\_) and then use the color value it tells you!
 
-Now you can either input the calculated color into the in game color picker, which will recolor your entire image to be said color, and do the swaps you want (disclaimer: currently the in game color picker does not work properly) or alternatively if you want more control you can color your original image with the calculated color manually and check the effectCanvasRaw setting.
+Now you can either input the calculated color into the in game color picker, which will recolor your entire image to be said color, and do the swaps you want **(don't use the in-game color picker for now, since it's currently broken)** or alternatively if you want more control you can color your original image with the calculated color manually and check the effectCanvasRaw setting.
 
 ### Part 2:  displace effect canvas
-
 Similarly, the displace effect canvas also acts as a mask, however instead of affecting the color, it displays the pixel that is that amount of pixels to the left/right or up/down.
 
 This is calculated using the images red and green values.  
@@ -716,7 +594,9 @@ i.e.
 | ![](images/image131.png)                                                                                                     | ![](images/image135.gif)                                                                                                   |   |
 | ![](images/image9.png)                                                                                                       |                                                                                                                            |   |
 
-# Rhythms 101
+{/*TODO*/}
+
+## Rhythms 101
 
 - Tempo
 
@@ -738,17 +618,17 @@ Triplets still fit this fractional idea, but rather than doubling or halving it 
 
 Swing rhythms make the spacing between notes irregular- think of it as shifting every other note a set amount. 16th note swing and triplet swing are both commonly seen.
 
-- Onbeats/offbeats &amp; syncopation
+- Onbeats/offbeats & syncopation
 
-We can take a 4/4 measure with four quarter notes and assign each a number (1 through 4.) Our odd numbers are “onbeats,” and our even numbers are “offbeats.” Think of a basic kick &amp; snare rhythm where our kick drum hits on the 1 and 3, while our snare drum hits on the 2 and 4.
+We can take a 4/4 measure with four quarter notes and assign each a number (1 through 4.) Our odd numbers are “onbeats,” and our even numbers are “offbeats.” Think of a basic kick &re rhythm where our kick drum hits on the 1 and 3, while our snare drum hits on the 2 and 4.
 
-You may also hear the first beat of a measure referred to as the “downbeat,” and the beat of the previous measure before it called an “upbeat.” Additionally, some call onbeats &amp; offbeats “strong” and “weak” beats respectively.
+You may also hear the first beat of a measure referred to as the “downbeat,” and the beat of the previous measure before it called an “upbeat.” Additionally, some call onbeats & offbeats “strong” and “weak” beats respectively.
 
 “Off-beat” can also be used to refer to syncopation. Syncopated rhythms are specifically notes that change the listener’s perception of where the strong and weak notes are, or disturb the rhythm’s natural flow.
 
 ---
 
-# Events
+## Events
 
 ## Notes section
 
@@ -909,7 +789,7 @@ order
 
 Sets order of priority for the deco event itself. 
 
-Helpful for events running on the same beat that alter different properties &amp; easings for the same deco.
+Helpful for events running on the same beat that alter different properties & easings for the same deco.
 
 id
 
@@ -935,7 +815,7 @@ Controls the image/animations the deco has (via filename entry) (will be the bub
 
 x/y
 
-X &amp; Y positions. Relative to the screen, 0 is left/top and increasing values move further right/down.
+X & Y positions. Relative to the screen, 0 is left/top and increasing values move further right/down.
 
 r
 
@@ -943,7 +823,7 @@ Angle of rotation
 
 sx/sy
 
-Scaling along the X &amp; Y planes
+Scaling along the X & Y planes
 
 ox/oy
 
@@ -1500,7 +1380,7 @@ Multiplies the rotation point of characters
 
 use 0 for top-left and 2 for bottom-right
 
-\[chrRotateMultX] &amp; \[chrRotateMultY] work as you’d expect
+\[chrRotateMultX] & \[chrRotateMultY] work as you’d expect
 
 Changing chrRotate with chrRotateMult = 0
 
